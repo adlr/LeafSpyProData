@@ -1,0 +1,114 @@
+'If needed adjust Font scale factor by tapping top/bottom of screen when screen is Frozen for better appearance,,,,,,,,,,,,
+'    x   y  size index title digits start end #ticks size
+CP,0xFF87CEFA, 0xFF000000
+
+' HV Battery Voltage
+GEM
+CGR0, 365,394
+CGR1, 340,365
+CGR2, 300,340
+GA, 20,13, 30, 30, "HV Bat", 1, 310, 405, 5,4 ,2
+
+
+' SOC Graph
+CGR0, 20,100
+CGR1, 5,20
+CGR2, 0,5
+GEM
+GA, 50,9, 25, 20, "SOC", 1 ,0 ,100, 2.5, 4
+
+CGR0, 85,100
+CGR1, 67,85
+CGR2, 0,67
+GDM
+GA, 50,87, 25, 21, "SOH", 2, 0,100, 2.5, 4
+CGR
+
+
+GEM
+
+PKSZ24
+' HV Battery Current
+CGR0,-100,0
+CGR1,50,100
+CGR2,100,280
+GEM
+GA, 80, 13, 30,31, "HV Bat", 2, -100, 280,10,5
+
+' HV Battery Power
+CGR0,-50,0
+CGR1,25,50
+CGR2,50,100
+GEM
+GA, 50,48, 86, 57, "HV Bat", 2, -50, 100, 5,5
+CGR
+
+GA, 20,83, 30,32, "Remain", 1 ,0 ,70, 2,5
+PKSZ24
+
+PKSZ30
+' HV Battery Current
+CGR0,-100,0
+CGR1,50,100
+CGR2,100,280
+GEM
+GA, 80, 13, 30,31, "HV Bat", 2, -100, 280,10,5
+
+' HV Battery Power
+CGR0,-50,0
+CGR1,25,50
+CGR2,50,100
+GEM
+GA, 50,48, 86, 57, "HV Bat", 2, -50, 100, 5,5
+CGR
+
+GA, 20,83, 30,32, "Remain", 1 ,0 ,90,2.5,4
+PKSZ30
+
+PKSZ40
+' HV Battery Current
+CGR0,-100,0
+CGR1,50,100
+CGR2,100,280
+GEM
+GA, 80, 13, 30,31, "HV Bat", 2, -100, 280,10,5
+
+' HV Battery Power
+CGR0,-50,0
+CGR1,25,50
+CGR2,50,100
+GEM
+GA, 50,48, 86, 57, "HV Bat", 2, -50, 100, 5,5
+CGR
+
+GA, 20,83, 30,32, "Remain", 1 ,0 ,120,5,4
+PKSZ40
+
+PKSZ62
+' HV Battery Current
+CGR0,-200,0
+CGR1,50,100
+CGR2,100,360
+GEM
+GA, 80, 13, 30,31, "HV Bat", 2, -200, 360,25,4
+
+' HV Battery Power
+CGR0,-75,0
+CGR1,25,50
+CGR2,50,175
+GEM
+GA, 50,48, 86, 57, "HV Bat", 2, -75, 175, 5,5
+CGR
+
+GA, 20,83, 30,32, "Remain", 1 ,0 ,180,5,4
+PKSZ62
+
+
+
+
+GEM
+'GA, 80,83, 30, 24, "Battery", 1 ,0,120, 5,4
+GA, 80,83, 30, 98, "Battery", 1 ,0,70, 2,5
+
+
+

@@ -1,0 +1,49 @@
+'LBL/VAR, X, Y,Total Width,Height,Width,Label,Attr, T
+'LV/VL, X, Y,Total Width,Height,Width,Label,Attr, T,Width,var,Attr, T
+
+CL,0xff000000,0xffffffff,0,0,0,0,,,,,,
+CV,0xff000000,0xffffffff,0,0,0,0,,,,,,
+
+VAR,12.5,10,25,15,-20,rb,XXXX,,,,,
+LBL,33,7,15,10,% SOC,L,XXXXXX,,,,,
+
+VAR,-40,10,25,15,201,rb,XXXX,,,,,
+CV,0xff000000,0xffffffff,0xffa0a0a0,0xffa0a0a0,1,5,,,,,,
+VAR,-66,10,29,15,202,l<lblGids_>,XXXXXXXXXXXXXX,,,,,
+CV,0xff000000,0xffffffff,0,0,0,0,,,,,,
+
+VAR,16.5,26,33,12,-34,rb,XXXXXXX,,,,,
+LBL,38,24.25,10,6,Wh,l,WX,,,,,
+VAR,52,26,24,12,-32,rb,XXXXX,,,,,
+LBL,69,24.25,10,6,Ah,l,WX,,,,,
+VAR,83,26,24,12,-30,rb,XXXXX,,,,,
+LBL,99,24.25,8,6,V,l,W,,,,,
+
+VAR,22.5,42,47,15,-36,rb,XXXXXXXXX,,,,,
+LBL,51,38,10,6,Wh,l,WX,,,,,
+CV,0xff000000,0xffffffff,0xffa0a0a0,0xffa0a0a0,1,5,,,,,,
+VAR,67,42,30,13,203,l<btnCtrRst>,XXXXXXXXXXX,,,,,
+CV,0xff000000,0xffffffff,0,0,0,0,,,,,,
+
+VAR,22.5,63,47,15,-200,rb,XXXXXXXXX,,,,,
+CV,0xff000000,0xffffffff,0xffa0a0a0,0xffa0a0a0,1,5,,,,,,
+VAR,65,63,34,13,204,l<LblTemp>,XXXXXXXXXXXXXXX,,,,,
+CV,0xff000000,0xffffffff,0,0,0,0,,,,,,
+
+VAR,22.5,84,47,15,-12,rb,XXXXXXXXX,,,,,
+CV,0xff000000,0xffffffff,0xffa0a0a0,0xffa0a0a0,1,5,,,,,,
+VAR,57,84,18,13,205,cm<lblmwUP>,XXXXXXXXXX,,,,,
+VAR,77,84,18,13,206,cm<lblmwDown>,XXXXXXXXXX,,,,,
+CV,0xff000000,0xffffffff,0,0,0,0,,,,,,
+
+(Mode)
+VAR,8,74,15,7,97,cb,XXXXXXX,,,,,
+IR,8,77,15,,,,,,,,,
+
+(FAN),,,,,,,,,,,,
+VAR,8,47,20,8,55,cb,XXXXXXXX),,,,,
+IF,8,-53,8,,,,,,,,,
+
+(Air Flow/Set Temp),,,,,,,,,,,,
+VAR,92,47,16,8,95,cb,XXXXXXX,,,,,
+IA,92,-51,12,,,,,,,,,

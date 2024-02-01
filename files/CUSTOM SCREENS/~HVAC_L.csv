@@ -1,0 +1,27 @@
+' element type,'day clr / lo scale,' nite clr / hi scale,' % width,' variable,' label,' precision,' start val,' end val,' minr tick val,' minor per maj tick,' start tick
+' gem -gag mrkr,' horiz pos,' vert pos
+
+CP,0xFF87CEFA,0xFF000000
+
+
+'  HVAC
+CGR0,200,350
+CGR1,350,400
+CGR2,400,500
+GA,85,25,25,52,AUX,0,0,500,10,10
+
+'  HVAC
+CGR0,1,2
+CGR1,2,4
+CGR2,4,7
+GA,75,75,25,96,Fan Speed,0,0,7,1,1
+
+CGR0,50,500
+CGR1,500,1500
+CGR2,1500,3500
+GA,55,25,35,53,HEAT,0,0,3500,50,10
+
+CGR0,0,250
+CGR1,250,1000
+CGR2,1000,2000
+GA,20,25,35,54,COOL,0,0,2000,40,5

@@ -1,0 +1,53 @@
+CP,0xFF87CEFA, 0xFF000000,,,,,,,,,,
+'CV,0xFF000000,0xFF808080,0x0,0x0,1,0,1.3,,,,,
+'LV, X, Y,Total Width,Height,Width,Label,Attr, T,Width,var,Attr, T
+CGR0,-25,300,,,,,,,,,,
+CGR1,300,450,,,,,,,,,,
+CGR2,450,525,,,,,,,,,,
+GA,50,50,50,17,"""Efficiency""",0,0,500,25,2,,
+IMP,,,,,,,,,,,,
+,,,,,,,,,,,,
+METRIC,,,,,,,,,,,,
+CGR0,-25,175,,,,,,,,,,
+CGR1,175,275,,,,,,,,,,
+CGR2,275,325,,,,,,,,,,
+GA,50,50,50,17,"""Efficiency""",0,0,300,10,5,,
+METRIC,,,,,,,,,,,,
+
+' Speed
+IMP
+CGR0, 0, 65
+CGR1, 65, 80
+CGR2, 80, 100
+GA, 11, 25, 20, 5, Speed Leaf, 1, 0, 100, 2, 5
+IMP
+
+METRIC
+CGR0, 0, 100
+CGR1, 100, 130
+CGR2, 130, 160
+
+GA, 11, 25, 2, 5, Speed Leaf, 1, 0, 160, 5, 4
+METRIC
+
+GEM
+' HV Battery Voltage
+CGR0, 365,394
+CGR1, 340,365
+CGR2, 300,340
+
+GA, 89, 25, 20, 58, HV Bat, 1, 310, 400, 5,4 ,2
+
+' HV Battery Power
+CGR0,-50,0
+CGR1,25,50
+CGR2,50,100
+GA, 20, 70, 20, 48, HV Bat, 2, -50, 100, 5,5
+
+' HV Battery Current
+CGR0,-100,0
+CGR1,50,100
+CGR2,100,280
+GA, 80, 70, 20, 59, HV Bat, 2, -100, 280, 10,5
+
+VL,-60,-94,24,5.75,54,Loop Time ,l,XXXXXXXXXx,44,100,r,XXXXXXXX

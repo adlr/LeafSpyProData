@@ -1,0 +1,11 @@
+If needed adjust User scale factor on Settings/Option panel for better appearance
+Type,Width, Offset, Label (comma ends label),font, justify, width(%),top(%),variable, font, justify, width(%),top(%)
+L,    80,       0    ,SOC ,                  20,      r,     45,      12,    20,     55,     c,     45,       5 
+L,    50,       0    ,SOH ,                  20,      r,     40,      33,    21,     35,     c,     50,      30 
+L,    50,       0    ,HVBat ,                20,      r,     40,      50,    30,     35,     c,     50,      47 
+L,   100,       0    ,Custom Screen (see files in LEAF_BT_CAN/CUSTOM SCREENS folder),10,     c,    100,       1      
+L,    50,       0    ,Gids ,                 20,      r,     40,      67,    33,     35,     c,     50,      64
+L,    50,      50    ,AHr,                   20,      c,     36,      29,    32,     35,     c,     54,      30
+L,    50,      50    ,Remaining,             20,      c,     36,      36,      ,      0,      ,     54   
+L,    50,      50    ,Time ,                 20,      r,     40,      50,    10,     35,     c,     50,      47 
+L,    50,      50    ,Ambient ,              20,      r,     40,      66,     3,     35,     c,     50,      64
